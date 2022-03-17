@@ -1,0 +1,9 @@
+FEATURE IDEAS
+
+- Removing Verse #'s
+	- when trying to determine the verses to remove, you know it starts at 1. You can set something up to index through the entire chapter and to search for the next subsuquent #, which should greatly improve the odds of removing ONLY verse #'s instead of accidentially removing #'s that aren't verses. 
+	- This isn't 100% error proof, perhaps an extremely sophisticated method would use an AI library or would simply have to read the words preceeding a # to see if it gives indication that it's about to mention a # and if it does, then leave it be and perhaps make note of it for the user to say "hey we detected in this sentence that it was about to mention a # so we didn't remove this (insert #) # from the text."
+	
+- Removing Chapter Headings
+	- perhaps the easiest way for this would be to look at the html for the text in the website and see if it differs from the "body" of the text and if it does and IF the user wants the chapter headings removed then go ahead and delete them. 
+	Or if they want to keep them perhaps have a table that stores the location of the header (like after these 3x words and before these 3x words) and then i know the location of the header and could paste it in with unique spacing before/after to help differentiate it from the "body" of the text
